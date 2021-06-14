@@ -51,7 +51,7 @@ var lovescore = Math.random() * 100;
 lovescore = Math.floor(lovescore) + 1; // 1-100
 
 if(lovescore > 70) {
-  alert("Your love score is " + lovescore + "%" + " You're love is a everlasting.");
+  alert("Your love score is " + lovescore + "%" + " You're love is everlasting.");
 } 
 if(lovescore > 30 &&  lovescore <= 70){
   alert("Your love score is " + lovescore + "%");  
